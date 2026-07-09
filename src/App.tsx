@@ -73,9 +73,10 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-start justify-center p-4 pt-12">
       <div className="w-full max-w-lg">
         {/* Header */}
-        <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
+        <h1 className="text-3xl font-bold text-center text-gray-800 mb-2">
           📝 Todo App
         </h1>
+        <p className="text-center text-sm text-gray-400 mb-6">无需登录/注册，数据保存在浏览器本地 🍃</p>
 
         {/* Input */}
         <div className="flex gap-2 mb-6">
